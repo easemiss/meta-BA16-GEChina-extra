@@ -1,0 +1,13 @@
+# LVDS display
+[master]
+device = /dev/video17
+fmt = RGBP
+width = 1920
+height = 1080
+alpha = 0
+# HDMI display
+[slave]
+device = /dev/video18
+fmt = RGBP
+width = 1920
+height = 1080
